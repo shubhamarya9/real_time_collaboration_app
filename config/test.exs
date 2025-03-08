@@ -26,6 +26,7 @@ config :real_time_collaboration_app, RealTimeCollaborationApp.Mailer,
 
 # Disable swoosh api client as it is only required for production adapters
 config :swoosh, :api_client, false
+config :swoosh, :local, false
 
 # Print only warnings and errors during test
 config :logger, level: :warning
