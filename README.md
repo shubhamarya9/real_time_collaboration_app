@@ -1,0 +1,4 @@
+- The main objective of this project is to be able to join a room which is a document editing page on the frontend and be able to edit a document among multiple users in real time.
+- The document will autosave after 5 seconds of no activity in the documetn channel (chat can go on)
+- Additional Features include: Building a chat on the side bar to discussion during editing the document
+- Technologies used so far: Backend: [Elixir: [Phoenix: [PubSub, Channels, Websockets], POSTGRES(to store document], FrontEnd: [Vue3 or NUXR (tbh)]
