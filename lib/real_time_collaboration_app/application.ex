@@ -17,7 +17,8 @@ defmodule RealTimeCollaborationApp.Application do
       # Start a worker by calling: RealTimeCollaborationApp.Worker.start_link(arg)
       # {RealTimeCollaborationApp.Worker, arg},
       # Start to serve requests, typically the last entry
-      RealTimeCollaborationAppWeb.Endpoint
+      RealTimeCollaborationAppWeb.Endpoint,
+      RealTimeCollaborationAppWeb.DelayedBroadcaster
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
